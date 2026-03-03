@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "org.delcom.pam_p4_ifs18005"
+    namespace = "org.delcom.pam_p4_ifs23054"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -24,7 +24,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField("String", "BASE_URL_PANTS_API", "\"https://pam-2026-p4-ifs18005-be.delcom.org:8080/\"")
+        buildConfigField("String", "BASE_URL_PANTS_API", "\"https://pam-2026-p4-ifs23054-be.dipow.fun:8080//\"")
     }
 
     buildTypes {
